@@ -1,6 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Simple Company System
+This is a simple project built using create-react-app as part of a job selection process by Tractian Inc. (https://tractian.com/)
 
 ## Available Scripts
 
