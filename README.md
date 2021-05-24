@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Simple Company System
+This is a simple project built using create-react-app as part of a job selection process by Tractian Inc. (https://tractian.com/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It is up and running as https://techinc.vercel.app/dashboard/
 
 ## Available Scripts
 
