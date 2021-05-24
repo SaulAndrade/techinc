@@ -1,6 +1,8 @@
 # Simple Company System
 This is a simple project built using create-react-app as part of a job selection process by Tractian Inc. (https://tractian.com/)
 
+It is up and running as https://techinc.vercel.app/dashboard/
+
 ## Available Scripts
 
 In the project directory, you can run:
