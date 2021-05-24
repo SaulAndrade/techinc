@@ -1,0 +1,60 @@
+@fontface {
+  font-family: 'Libre Franklin', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;1,400;1,800&display=swap')
+}
+
+.Logo {
+  height: 32px;
+  margin: 16px;
+  color: #CCDEE2;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.Logo_invisible {
+  display: none;
+}
+
+
+.Trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  color: white;
+  font-size: 30px;
+  transition: color 0.3s;
+}
+  
+.Trigger:hover {
+    color: #1890ff;
+}
+  
+/* overwritting default antd styles */
+.SiteLayout .SiteLayoutBackgroundHeader{
+  padding: 0;
+  background: #A8BE38;
+  display: flex;
+  align-items: center;
+}
+
+/* overwritting default antd styles */
+.SiteLayout .SiteLayoutBackgroundContent{
+  margin: 24px 16px !important;
+  padding: 24px !important;
+  min-height: 280px !important;
+  background: #fff;
+  }
+
+  .HeaderContent {
+    display: flex; 
+    width:90%
+  }
+
+  .MyLogo {
+    display: flex;
+    width: 10%;
+    align-items: center;
+    justify-content: center;
+  }

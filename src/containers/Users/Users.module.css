@@ -1,0 +1,23 @@
+.Background {
+    width: 100%;
+    height: 10%;
+}
+
+.AddButton {
+    background: white;
+    border: 1px solid #137AA4;
+    border-radius: 15px;
+    height: 50px;
+    width: 150px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+    color: #137AA4;
+}
+
+.AddButton:hover,
+.AddButton:hover {
+    background: #137AA4;
+    border-color: white;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,70 @@
+@fontface {
+    font-family: 'Libre Franklin', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;1,400;1,800&display=swap')
+  }
+
+.Container {
+    margin: 0;
+    padding: 0;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: white;
+    border-radius: 50px;
+}
+
+.Badge {
+    padding: 4px;
+    height: 25px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 800;
+    color: white;
+}
+
+.Badge:active,
+.Badge:hover {
+    cursor: pointer;
+    background: black;
+}
+
+.Badge_inOp {
+    background: #137AA4
+}
+
+.Badge_inAl {
+    background: #A8BE38
+}
+
+.Badge_inDt {
+    background:#85AEBA
+}
+
+.ClearProp {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    color: black;
+    background: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+}
+
+.ClearProp:hover {
+    background: black;
+    color: #ccc;
+    cursor: pointer;
+}
+
+@media (max-width:1150px) {
+    .Container {
+        display:none
+    }
+}

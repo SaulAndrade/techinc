@@ -1,0 +1,56 @@
+@fontface {
+    font-family: 'Libre Franklin', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;1,400;1,800&display=swap')
+  }
+
+.CardContainer {
+    position: relative;
+}
+
+.CardInfoBlock {
+    margin-top: 8px;
+}
+
+.Badge {
+    height: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 800;
+    color: white;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+
+.Badge_inOp {
+    background: #137AA4
+}
+
+.Badge_inAl {
+    background: #A8BE38
+}
+
+.Badge_inDt {
+    background:#85AEBA
+}
+
+.Badge_undef {
+    background: #0A3252;    
+}
+
+.SpecsList {
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.LastUpdatedContainer {
+    position: absolute;
+    right: 0px;
+    font-size: 12px;
+    color: grey;
+}

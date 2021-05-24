@@ -1,0 +1,49 @@
+.Trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+  
+.Trigger:hover {
+    color: #1890ff;
+}
+  
+/* overwritting default antd styles */
+.SiteLayout .SiteLayoutBackgroundHeader{
+  padding: 0;
+  background: #A8BE38;
+  display: flex;
+  align-items: center;
+}
+
+/* overwritting default antd styles */
+.SiteLayout .SiteLayoutBackgroundContent{
+  margin: 24px 16px !important;
+  padding: 24px !important;
+  min-height: 280px !important;
+  background: #fff;
+  }
+
+  aside {
+    background:#0A3252 !important;
+  }
+
+  aside ul{
+    background:#0A3252 !important;
+  }
+
+  .HeaderContent {
+    display: flex; 
+    width:90%
+  }
+
+  .MyLogo {
+    display: flex;
+    width: 10%;
+    align-items: center;
+    justify-content: center;
+  }
