@@ -3,6 +3,12 @@ This is a simple project built using create-react-app as part of a job selection
 
 It is up and running as https://techinc.vercel.app/dashboard/
 
+The graphics were built using the Highcharts library (https://www.highcharts.com/) and the general used antd (https://ant.design/)
+
+Redux was intentionally not used.
+
+All requests are delayed by a global interceptor by 500ms to make sure the loading animations are displayed.
+
 ## Available Scripts
 
 In the project directory, you can run:
